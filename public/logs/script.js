@@ -1,5 +1,5 @@
 async function getData() {
-    const response = await fetch('/api');
+    const response = await fetch('https://moment-creator.herokuapp.com/api');
     const data = await response.json();
     let count = 1;
         for(var node in data)
@@ -52,7 +52,7 @@ async function getData() {
                     headers: {'Content-Type':'application/json'},
                     body: JSON.stringify({element_id})
                 };
-                const response = await fetch('/api',options);
+                const response = await fetch('https://moment-creator.herokuapp.com/api',options);
                 const real_response = await response.json();
                 //console.log(real_response);
 

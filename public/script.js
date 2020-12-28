@@ -74,7 +74,7 @@ function setup(){
                 headers: {'Content-Type':'application/json'},
                 body: JSON.stringify(data)
             }
-            const response = await fetch('/api',options); //Getting a response from the post request and sending the data to the request
+            const response = await fetch('https://moment-creator.herokuapp.com/api',options); //Getting a response from the post request and sending the data to the request
             const otherdata  = await response.json();
             console.log(otherdata);
         });
