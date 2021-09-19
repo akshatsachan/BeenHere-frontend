@@ -1,2 +1,2 @@
 # Data-Selfie-App-frontend
-This is the frontend for the Data-Selfie-App project
+This is the frontend for the BeenHere project
