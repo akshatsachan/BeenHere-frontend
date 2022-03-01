@@ -83,5 +83,6 @@ function setup(){
     } else {
     console.log("The location can be accessed");
     }
-    
+    console.log("The location can be accessed");
+    console.log("The location can be accessed");
 }
